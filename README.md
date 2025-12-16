@@ -1,4 +1,4 @@
-# Character_Device_Driver - Driver de Dispositivo de Caractere
+# Character_Device_Driver
 
 Este diretório contém a implementação do **driver de dispositivo de caractere** baseado na seção **5.3.2** do material *Técnicas de Programação para Sistemas Embarcados II*. 
 
