@@ -9,6 +9,7 @@ Ele apresenta os conceitos e etapas necessárias para criar um **driver de carac
 ##  Estrutura dos Arquivos
 
 * meu_driver_char/
+* │    └── funcionamento_char_driver.png
 * ├── Makefile        
 * ├── meu_driver.c       
 * └── meu_driver.h
@@ -120,6 +121,16 @@ tail -f /var/log/syslog
 - `my_ioctl()`
 
 ---
+
+
+##  Funcionamento do Character Device Driver
+
+A imagem abaixo demonstra o funcionamento do driver de dispositivo de caractere,
+incluindo a criação do device node em `/dev`, operações de leitura e escrita
+e as mensagens registradas no log do kernel.
+
+![Funcionamento do Character Device Driver](images/funcionamento_char_driver.png)
+
 
 ##  Referências
 
