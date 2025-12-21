@@ -136,10 +136,10 @@ echo "teste" > /dev/meu_driver
 cat /dev/meu_driver
 dmesg -w
 ```
-* O comando ls /dev | grep meu_driver verifica a criação do device node.
-* O comando echo realiza uma escrita no dispositivo.
-* O comando cat realiza a leitura do dispositivo.
-* O comando dmesg -w permite acompanhar as mensagens do driver no log do kernel.
+* O comando `ls /dev | grep meu_driver` verifica a criação do device node.
+* O comando `echo` realiza uma escrita no dispositivo.
+* O comando `cat` realiza a leitura do dispositivo.
+* O comando `dmesg -w` permite acompanhar as mensagens do driver no log do kernel.
 
 
 ---
