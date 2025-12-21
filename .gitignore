@@ -1,0 +1,9 @@
+# Arquivos gerados pelo kernel module
+*.o
+*.ko
+*.mod
+*.mod.c
+*.cmd
+Module.symvers
+modules.order
+# Diretórios temporários do kernel build

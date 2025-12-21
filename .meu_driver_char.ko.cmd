@@ -1,1 +1,0 @@
-savedcmd_/home/teste/drivers/meu_driver_char/meu_driver_char.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/teste/drivers/meu_driver_char/meu_driver_char.ko /home/teste/drivers/meu_driver_char/meu_driver_char.o /home/teste/drivers/meu_driver_char/meu_driver_char.mod.o
