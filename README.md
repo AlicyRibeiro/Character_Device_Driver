@@ -123,6 +123,22 @@ tail -f /var/log/syslog
 ---
 
 
+##  Testando o Character Device Driver
+
+Após a compilação e carregamento do módulo, os comandos abaixo podem ser utilizados
+para verificar o funcionamento do driver de dispositivo de caractere.
+
+```bash
+make
+sudo insmod meu_driver.ko
+ls /dev | grep meu_driver
+echo "teste" > /dev/meu_driver
+cat /dev/meu_driver
+dmesg -w
+```
+
+---
+
 ##  Funcionamento do Character Device Driver
 
 A imagem abaixo demonstra o funcionamento do driver de dispositivo de caractere,
