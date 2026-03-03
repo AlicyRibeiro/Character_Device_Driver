@@ -1,3 +1,24 @@
+/*
+ * =====================================================================================
+ *
+ *       Filename: meu_ioctl.h
+ *
+ *
+ *        Version:  1.0
+ *        Created:  2025
+ *       Revision:  none
+ *
+ *         Author:  Ana Alicy Ribeiro
+ *        Contact:  github.com/<AlicyRibeiro>
+ *   Organization:  Universidade Federal do Ceará - Campus Quixadá
+ *
+ *   GitHub Repo:  Character_Device_Driver 
+ *
+ *
+ *
+ * =====================================================================================
+ */
+
 
 #ifndef MEU_IOCTL_H
 #define MEU_IOCTL_H
@@ -9,12 +30,6 @@ typedef struct rtc_info {
     int minutos;
     int segundos;
 } rtc_info_t;
-
-/* Defina aqui o número mágico do IOCTL */
-//#define MEU_IOCTL_MAGIC 'k'
-
-/* Comandos IOCTL */
-//#define IOCTL_LER_RTC   _IOR(MEU_IOCTL_MAGIC, 1, rtc_info_t)
 
 
 #define MEU_IOCTL_MAGIC 'G'
