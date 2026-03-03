@@ -1,3 +1,24 @@
+/*
+ * =====================================================================================
+ *
+ *       Filename: meu_driver_char.mod.c
+ *
+ *
+ *        Version:  1.0
+ *        Created:  2025
+ *       Revision:  none
+ *
+ *         Author:  Ana Alicy Ribeiro
+ *        Contact:  github.com/<AlicyRibeiro>
+ *   Organization:  Universidade Federal do Ceará - Campus Quixadá
+ *
+ *   GitHub Repo:  Character_Device_Driver 
+ *
+ *
+ *
+ * =====================================================================================
+ */
+
 #include <linux/module.h>
 #define INCLUDE_VERMAGIC
 #include <linux/build-salt.h>
