@@ -1,4 +1,25 @@
 /*
+ * =====================================================================================
+ *
+ *       Filename: meu_driver_char.h
+ *
+ *
+ *        Version:  1.0
+ *        Created:  2025
+ *       Revision:  none
+ *
+ *         Author:  Ana Alicy Ribeiro
+ *        Contact:  github.com/<AlicyRibeiro>
+ *   Organization:  Universidade Federal do Ceará - Campus Quixadá
+ *
+ *   GitHub Repo:  Character_Device_Driver 
+ *
+ *
+ *
+ * =====================================================================================
+ */
+
+/*
 
 #ifndef MEU_DRIVER_H
 #define MEU_DRIVER_H
